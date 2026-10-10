@@ -81,3 +81,8 @@ OPENROUTER_API_KEY=
 ./search hello
 ```
 ***
+### blog
+
+https://zenn.dev/knaka0209/scraps/e96e9b6761411a
+
+
