@@ -11,7 +11,6 @@
 #include <random>
 
 #include "include/models.hpp"
-#include "include/openrouter_client.hpp"
 #include "include/HttpClient.hpp"
 #include "pg_search.hpp"
 #include "include/JevClient.hpp"
