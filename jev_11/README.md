@@ -81,4 +81,10 @@ OPENROUTER_API_KEY=
 ```
 ./search hello
 ```
+
 ***
+### blog
+
+https://zenn.dev/link/comments/f5786510f9bb67
+
+
