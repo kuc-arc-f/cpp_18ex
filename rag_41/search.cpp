@@ -151,17 +151,18 @@ int main(int argc, char* argv[])
         );
 
         if (response.has_value()) {
+            auto end = std::chrono::high_resolution_clock::now();
+            // 差分（ミリ秒）
+            auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
+            std::cout << "time_end: " << duration.count() << " ms" << std::endl;
             std::cout << "result==================" << std::endl;
             std::cout << "AI: " << response.value() << std::endl;
+
             return -1;
         } else {
             std::cerr << "Failed to get response from API" << std::endl;
             return -1;
         }
-        auto end = std::chrono::high_resolution_clock::now();
-        // 差分（ミリ秒）
-        auto duration = std::chrono::duration_cast<std::chrono::milliseconds>(end - start);
-        std::cout << "time_end: " << duration.count() << " ms" << std::endl;
         return 1;
     } catch (const std::exception& e) {
         std::cout << "Error , main" << std::endl;
