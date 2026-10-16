@@ -82,3 +82,7 @@ OPENROUTER_MODEL=openai/gpt-6-luna
 ./search hello
 ```
 ***
+### blog
+
+https://zenn.dev/knaka0209/scraps/54fb1f074e5190
+
