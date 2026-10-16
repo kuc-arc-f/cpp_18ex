@@ -1,0 +1,27 @@
+{
+  "name": "tui_example",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.mjs",
+    "build": "esbuild app.jsx --bundle --platform=node --format=esm --external:ink --external:ink-text-input --external:react --jsx=automatic --jsx-import-source=react --outfile=app.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@typesafe-ai/sdk": "^0.6.0",
+    "dotenv": "^18.0.1",
+    "ink": "^7.1.0",
+    "ink-text-input": "^6.0.0",
+    "koffi": "^3.0.2",
+    "react": "^19.2.7",
+    "tsx": "^4.23.12"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.1"
+  }
+}
