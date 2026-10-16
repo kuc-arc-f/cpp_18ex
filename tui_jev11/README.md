@@ -1,4 +1,4 @@
-﻿# jev_rag11
+﻿# tui_jev11
 
  Version: 0.9.1
 
@@ -82,4 +82,8 @@ make all
 pnpm i
 npm run start
 ```
+
 ***
+### blog
+
+https://zenn.dev/link/comments/4cfb71a5103258
