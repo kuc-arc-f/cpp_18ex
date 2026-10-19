@@ -18,6 +18,11 @@ C++ CLI , Jev + Vector Search Redis database
 * Linux
 
 ***
+### related API
+
+https://github.com/kuc-arc-f/rs_vec_redis_rest
+
+***
 ### related LLM
 
 * huggingface
