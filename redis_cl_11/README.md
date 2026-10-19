@@ -53,12 +53,12 @@ sudo apt install libcurl4-openssl-dev
 ***
 * embed build
 ```
-clang++ -std=c++17 -I./include -o embed embed.cpp -lcurl -lpqxx -lpq
+clang++ -std=c++17 -I./include -o embed embed.cpp -lcurl
 ```
 
 * search
 ```
-clang++ -std=c++17 -I./include -o search search.cpp -lcurl -lpqxx -lpq
+clang++ -std=c++17 -I./include -o search search.cpp -lcurl
 ```
 ***
 * .env
@@ -79,3 +79,7 @@ OPENROUTER_API_KEY=
 ./search hello
 ```
 ***
+### blog
+
+https://zenn.dev/link/comments/257a86ed675f11
+
